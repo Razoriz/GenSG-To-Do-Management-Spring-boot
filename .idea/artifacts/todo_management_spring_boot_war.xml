@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="todo-management-spring-boot:war">
+    <output-path>$PROJECT_DIR$/todo-management-spring-boot/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>todo-management-spring-boot</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="todo-management-spring-boot-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="todo-management-spring-boot:war exploded" />
+    </root>
+  </artifact>
+</component>
